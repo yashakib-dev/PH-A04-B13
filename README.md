@@ -16,3 +16,8 @@ Answers
 ->On the other hand querySelectorAll select all matching elements using CSS selectors and returns NodeList.
 
 
+2. s-1. At first i will declare a variable. for example - let div
+s-2. next, By using -  document.createElement("div")  will create an element
+s-3. after that i'll use  div.innerText = "Hello"  for implementing the content
+s-4. Lastly i append the element using .appendChild(div)
+
