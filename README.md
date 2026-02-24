@@ -26,3 +26,8 @@ s-4. Lastly i append the element using .appendChild(div)
 
 ->When we triggered an element the event is first executed on the original target element and it moves from the element through its parent elements and this process continues until it reaches the root of the document. That's how it's works.
 
+
+4. ->Event Delegation means using one parent event listener to handle events of all child elements.It handles all child events using event bubbling.
+
+->By using it , we don't need to add multiple event listener to the child elements. We can only use the one parent event listener for all children.
+
