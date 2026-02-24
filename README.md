@@ -21,3 +21,8 @@ s-2. next, By using -  document.createElement("div")  will create an element
 s-3. after that i'll use  div.innerText = "Hello"  for implementing the content
 s-4. Lastly i append the element using .appendChild(div)
 
+
+3. -> The process of executing an even from its triggered element to root( document) element is called event bubbling.
+
+->When we triggered an element the event is first executed on the original target element and it moves from the element through its parent elements and this process continues until it reaches the root of the document. That's how it's works.
+
