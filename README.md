@@ -31,3 +31,14 @@ s-4. Lastly i append the element using .appendChild(div)
 
 ->By using it , we don't need to add multiple event listener to the child elements. We can only use the one parent event listener for all children.
 
+5. ->preventDefault() stops the browser’s default action for an event.
+For example:
+ <a href="www.youtube.com">YouTube</a>
+Normally,after clicking the link opens YouTube.
+With preventDefault(), browser doesn’t go anywhere, but the alert still runs.
+
+->stopPropagation() stops the event from bubbling up the DOM.
+For example:
+Normally, without stopPropagation(), it would show -
+"Child clicked!" → "Parent clicked!" because of bubbling.
+Now it will only show "Child clicked!".
